@@ -7,7 +7,7 @@ inquirer.prompt(questions).then(function(response) {
     const myReadme = generateMD(response);
     // console.log(response);
     // console.log(myPage);
-    fs.writeFile("README.md", myReadme, function(err) {
+    fs.writeFile("READMETests.md", myReadme, function(err) {
         if (err) {
             return console.log(err)
         }
