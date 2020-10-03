@@ -2,7 +2,12 @@
     
     
 ## Description
-        creating and asking users a series of questions and after questions are answered they are presented with a README.md file that can go directly into their repo
+    1. Used VS code ,npm intall, and inquirer to generate a series of questions for user
+    2. Once user has answered questions, they are presented with a template/file of a README
+    3. Added basic questions needed for a README file
+    4. Using a function after answering prompted questions then uses fs.writeFile it generates and plugs in information obtained from user
+    5. Optimized code and transfered questions from index.js into questions.js and then exported them into index.js
+    6. Optimized code again and transfered the generate README content to  generateReadme.js and expoerted into inde.js
  
 ## Table of Contents
 * [Installation](#installation)
@@ -13,10 +18,9 @@
 * [Questions](#questions)
 
 ## Installation
-    VS code has to be already installed in computer along with npm intall and inquirer
+    1. VS code has to be pre-installed in computer along with npm intall and inquirer
 ## Usage
-    answer questions prompted when running index.js in integrated terminal to generate README file
-    
+    answer questions prompted when running index.js in integrated terminal to generate README files
 ## License
     Lincenses used: MIT
 ## Test
