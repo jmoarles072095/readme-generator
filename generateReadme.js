@@ -1,18 +1,18 @@
 function generateMD(response) {
     return `  
-# ${response.Title}
+## ${response.Title}
     
     
 ## Description
-    ${response.Description}
+${response.Description}
  
 ## Table of Contents
-    * [Installation](#installation)
-    * [Usage](#usage)
-    * [License](#license)
-    * [Test](#test)
-    * [Contributors](#contributors)
-    * [Questions](#questions)
+* [Installation](#installation)
+* [Usage](#usage)
+* [License](#license)
+* [Test](#test)
+* [Contributors](#contributors)
+* [Questions](#questions)
 
 ## Installation
     ${response.Installation}

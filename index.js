@@ -6,7 +6,7 @@ const { questions } = require("./questions")
 inquirer.prompt(questions).then(function(response) {
     const myReadme = generateMD(response);
     // console.log(response);
-    fs.writeFile("READMETests.md", myReadme, function(err) {
+    fs.writeFile("READMETest.md", myReadme, function(err) {
         if (err) {
             return console.log(err)
         }
